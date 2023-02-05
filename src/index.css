@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar-brand{
+  font-weight: 500;
+
+}
+
+h1{
+  font-size:20px !important;
+}
+
+.flex-container{
+  display:flex !important;
+}
+
+.btn{
+  background-color: darkorange !important;
+  color: white !important;
+}
+
+select{
+  box-shadow: none !important;
+  border-color: darkorange !important;
+
+}
+
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid darkorange;
+  border-right: none;
+
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: red;
+}
+
+.searchButton {
+  width: 55px;
+  height: 50px;
+  margin-top: 10px;
+  border: 1px solid darkorange;
+  background: darkorange;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.back{
+  background-image: url("https://www.123freevectors.com/ezoimgfmt/i2.wp.com/files.123freevectors.com/wp-content/original/104042-orange-stripes-pattern.jpg?ezimgfmt=rs%3Adevice%2Frscb3-1&q=95&w=800");
+}
+
